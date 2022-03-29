@@ -8,25 +8,42 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div class="container">
     <form>
+        <h2 id="heading">Welcome to your To-Do List!</h2>
         <div>
             <label>Add an item to your To-Do List:</label>
             <input id="userInput" type="text" autocomplete="off" placeholder="Enter item"/>           
         </div>
+
         <div>
             <input id="addButton" value="Add" type="submit"/>
         </div>
+
+        <div>
+            <input id="editButton" value="Edit" type="button"/>
+        </div>
+
+        <div>
+            <input id="deleteButton" value="Delete" type="button"/>
+        </div>
+
         <div>
             <input id="completedButton" value="Remove Completed Tasks" type="button"/>
         </div>
+
         <div>
-            <input id="removeButton" value="Remove All" type="reset"/>
+            <input id="removeButton" value="Remove All" type="button"/>
         </div>
         
+       
+
+
         <div id="todoList">
           
         </div>
     </form>
+</div>
     <script src="main.js"></script>
 </body>
 </html>
