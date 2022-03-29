@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form>
+        <div>
+            <label>Add an item to your To-Do List:</label>
+            <input id="userInput" type="text" autocomplete="off" placeholder="Enter item"/>           
+        </div>
+        <div>
+            <input id="addButton" value="Add" type="submit"/>
+        </div>
+        <div>
+            <input id="completedButton" value="Remove Completed Tasks" type="button"/>
+        </div>
+        <div>
+            <input id="removeButton" value="Remove All" type="reset"/>
+        </div>
+        
+        <div id="todoList">
+          
+        </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
